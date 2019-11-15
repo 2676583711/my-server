@@ -1,0 +1,14 @@
+[2019-10-29T23:27:57,690][WARN ][o.e.d.r.a.a.i.RestCreateIndexAction] [DEBIAN] [types removal] Using include_type_name in create index requests is deprecated. The parameter will be removed in the next major version.
+[2019-10-29T23:28:04,526][WARN ][o.e.d.r.a.a.i.RestPutMappingAction] [DEBIAN] [types removal] Using include_type_name in put mapping requests is deprecated. The parameter will be removed in the next major version.
+[2019-10-30T13:18:51,517][WARN ][o.e.d.r.a.a.i.RestPutMappingAction] [DEBIAN] [types removal] Using include_type_name in put mapping requests is deprecated. The parameter will be removed in the next major version.
+[2019-10-30T14:04:09,606][WARN ][o.e.d.r.a.a.i.RestGetMappingAction] [DEBIAN] [types removal] Using include_type_name in get mapping requests is deprecated. The parameter will be removed in the next major version.
+[2019-10-30T16:16:13,663][WARN ][o.e.d.r.a.s.RestSearchAction] [DEBIAN] [types removal] Specifying types in search requests is deprecated.
+[2019-10-30T18:45:53,601][WARN ][o.e.d.r.a.a.i.RestPutMappingAction] [DEBIAN] [types removal] Using include_type_name in put mapping requests is deprecated. The parameter will be removed in the next major version.
+[2019-10-30T18:51:04,274][WARN ][o.e.d.r.a.d.RestDeleteAction] [DEBIAN] [types removal] Specifying types in document index requests is deprecated, use the typeless endpoints instead (/{index}/_doc/{id}, /{index}/_doc, or /{index}/_create/{id}).
+[2019-10-30T19:19:00,320][WARN ][o.e.d.r.a.s.RestSearchAction] [DEBIAN] [types removal] Specifying types in search requests is deprecated.
+[2019-10-31T11:27:35,942][WARN ][o.e.d.r.a.a.i.RestPutMappingAction] [DEBIAN] [types removal] Using include_type_name in put mapping requests is deprecated. The parameter will be removed in the next major version.
+[2019-10-31T11:28:02,136][WARN ][o.e.d.r.a.s.RestSearchAction] [DEBIAN] [types removal] Specifying types in search requests is deprecated.
+[2019-10-31T11:45:35,682][WARN ][o.e.d.r.a.d.RestDeleteAction] [DEBIAN] [types removal] Specifying types in document index requests is deprecated, use the typeless endpoints instead (/{index}/_doc/{id}, /{index}/_doc, or /{index}/_create/{id}).
+[2019-11-04T20:44:00,485][WARN ][o.e.d.r.a.d.RestDeleteAction] [DEBIAN] [types removal] Specifying types in document index requests is deprecated, use the typeless endpoints instead (/{index}/_doc/{id}, /{index}/_doc, or /{index}/_create/{id}).
+[2019-11-14T22:53:41,077][WARN ][o.e.d.r.a.a.i.RestPutMappingAction] [DEBIAN] [types removal] Using include_type_name in put mapping requests is deprecated. The parameter will be removed in the next major version.
+[2019-11-14T22:54:09,650][WARN ][o.e.d.r.a.s.RestSearchAction] [DEBIAN] [types removal] Specifying types in search requests is deprecated.

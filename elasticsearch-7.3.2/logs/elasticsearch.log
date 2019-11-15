@@ -1,0 +1,214 @@
+[2019-11-14T22:52:14,118][INFO ][o.e.e.NodeEnvironment    ] [DEBIAN] using [1] data paths, mounts [[/home (/dev/sda9)]], net usable_space [52.2gb], net total_space [204.9gb], types [ext4]
+[2019-11-14T22:52:14,196][INFO ][o.e.e.NodeEnvironment    ] [DEBIAN] heap size [990.7mb], compressed ordinary object pointers [true]
+[2019-11-14T22:52:14,731][INFO ][o.e.n.Node               ] [DEBIAN] node name [DEBIAN], node ID [adDOsngCRYucJqrI8Hnb2g], cluster name [elasticsearch]
+[2019-11-14T22:52:14,732][INFO ][o.e.n.Node               ] [DEBIAN] version[7.3.2], pid[8053], build[default/tar/1c1faf1/2019-09-06T14:40:30.409026Z], OS[Linux/4.9.0-11-amd64/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/11.0.2/11.0.2+9-LTS]
+[2019-11-14T22:52:14,733][INFO ][o.e.n.Node               ] [DEBIAN] JVM home [/home/zhou/workspace/program/JAVA/JDK/using/jdk]
+[2019-11-14T22:52:14,733][INFO ][o.e.n.Node               ] [DEBIAN] JVM arguments [-Xms1g, -Xmx1g, -XX:+UseConcMarkSweepGC, -XX:CMSInitiatingOccupancyFraction=75, -XX:+UseCMSInitiatingOccupancyOnly, -Des.networkaddress.cache.ttl=60, -Des.networkaddress.cache.negative.ttl=10, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -XX:-OmitStackTraceInFastThrow, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Djava.io.tmpdir=/tmp/elasticsearch-5957727354746428227, -XX:+HeapDumpOnOutOfMemoryError, -XX:HeapDumpPath=data, -XX:ErrorFile=logs/hs_err_pid%p.log, -Xlog:gc*,gc+age=trace,safepoint:file=logs/gc.log:utctime,pid,tags:filecount=32,filesize=64m, -Djava.locale.providers=COMPAT, -Dio.netty.allocator.type=unpooled, -XX:MaxDirectMemorySize=536870912, -Des.path.home=/home/zhou/下载/elasticsearch/elasticsearch-7.3.2, -Des.path.conf=/home/zhou/下载/elasticsearch/elasticsearch-7.3.2/config, -Des.distribution.flavor=default, -Des.distribution.type=tar, -Des.bundled_jdk=true]
+[2019-11-14T22:52:23,013][INFO ][o.e.p.PluginsService     ] [DEBIAN] loaded module [aggs-matrix-stats]
+[2019-11-14T22:52:23,014][INFO ][o.e.p.PluginsService     ] [DEBIAN] loaded module [analysis-common]
+[2019-11-14T22:52:23,014][INFO ][o.e.p.PluginsService     ] [DEBIAN] loaded module [data-frame]
+[2019-11-14T22:52:23,015][INFO ][o.e.p.PluginsService     ] [DEBIAN] loaded module [flattened]
+[2019-11-14T22:52:23,015][INFO ][o.e.p.PluginsService     ] [DEBIAN] loaded module [ingest-common]
+[2019-11-14T22:52:23,015][INFO ][o.e.p.PluginsService     ] [DEBIAN] loaded module [ingest-geoip]
+[2019-11-14T22:52:23,016][INFO ][o.e.p.PluginsService     ] [DEBIAN] loaded module [ingest-user-agent]
+[2019-11-14T22:52:23,016][INFO ][o.e.p.PluginsService     ] [DEBIAN] loaded module [lang-expression]
+[2019-11-14T22:52:23,017][INFO ][o.e.p.PluginsService     ] [DEBIAN] loaded module [lang-mustache]
+[2019-11-14T22:52:23,017][INFO ][o.e.p.PluginsService     ] [DEBIAN] loaded module [lang-painless]
+[2019-11-14T22:52:23,018][INFO ][o.e.p.PluginsService     ] [DEBIAN] loaded module [mapper-extras]
+[2019-11-14T22:52:23,018][INFO ][o.e.p.PluginsService     ] [DEBIAN] loaded module [parent-join]
+[2019-11-14T22:52:23,019][INFO ][o.e.p.PluginsService     ] [DEBIAN] loaded module [percolator]
+[2019-11-14T22:52:23,019][INFO ][o.e.p.PluginsService     ] [DEBIAN] loaded module [rank-eval]
+[2019-11-14T22:52:23,020][INFO ][o.e.p.PluginsService     ] [DEBIAN] loaded module [reindex]
+[2019-11-14T22:52:23,020][INFO ][o.e.p.PluginsService     ] [DEBIAN] loaded module [repository-url]
+[2019-11-14T22:52:23,021][INFO ][o.e.p.PluginsService     ] [DEBIAN] loaded module [transport-netty4]
+[2019-11-14T22:52:23,021][INFO ][o.e.p.PluginsService     ] [DEBIAN] loaded module [vectors]
+[2019-11-14T22:52:23,022][INFO ][o.e.p.PluginsService     ] [DEBIAN] loaded module [x-pack-ccr]
+[2019-11-14T22:52:23,022][INFO ][o.e.p.PluginsService     ] [DEBIAN] loaded module [x-pack-core]
+[2019-11-14T22:52:23,022][INFO ][o.e.p.PluginsService     ] [DEBIAN] loaded module [x-pack-deprecation]
+[2019-11-14T22:52:23,023][INFO ][o.e.p.PluginsService     ] [DEBIAN] loaded module [x-pack-graph]
+[2019-11-14T22:52:23,023][INFO ][o.e.p.PluginsService     ] [DEBIAN] loaded module [x-pack-ilm]
+[2019-11-14T22:52:23,023][INFO ][o.e.p.PluginsService     ] [DEBIAN] loaded module [x-pack-logstash]
+[2019-11-14T22:52:23,024][INFO ][o.e.p.PluginsService     ] [DEBIAN] loaded module [x-pack-ml]
+[2019-11-14T22:52:23,024][INFO ][o.e.p.PluginsService     ] [DEBIAN] loaded module [x-pack-monitoring]
+[2019-11-14T22:52:23,024][INFO ][o.e.p.PluginsService     ] [DEBIAN] loaded module [x-pack-rollup]
+[2019-11-14T22:52:23,025][INFO ][o.e.p.PluginsService     ] [DEBIAN] loaded module [x-pack-security]
+[2019-11-14T22:52:23,025][INFO ][o.e.p.PluginsService     ] [DEBIAN] loaded module [x-pack-sql]
+[2019-11-14T22:52:23,025][INFO ][o.e.p.PluginsService     ] [DEBIAN] loaded module [x-pack-voting-only-node]
+[2019-11-14T22:52:23,026][INFO ][o.e.p.PluginsService     ] [DEBIAN] loaded module [x-pack-watcher]
+[2019-11-14T22:52:23,026][INFO ][o.e.p.PluginsService     ] [DEBIAN] no plugins loaded
+[2019-11-14T22:52:30,263][INFO ][o.e.x.s.a.s.FileRolesStore] [DEBIAN] parsed [0] roles from file [/home/zhou/下载/elasticsearch/elasticsearch-7.3.2/config/roles.yml]
+[2019-11-14T22:52:32,129][INFO ][o.e.x.m.p.l.CppLogMessageHandler] [DEBIAN] [controller/8149] [Main.cc@110] controller (64 bit): Version 7.3.2 (Build 265429af874fbe) Copyright (c) 2019 Elasticsearch BV
+[2019-11-14T22:52:33,148][DEBUG][o.e.a.ActionModule       ] [DEBIAN] Using REST wrapper from plugin org.elasticsearch.xpack.security.Security
+[2019-11-14T22:52:34,458][INFO ][o.e.d.DiscoveryModule    ] [DEBIAN] using discovery type [zen] and seed hosts providers [settings]
+[2019-11-14T22:52:36,016][INFO ][o.e.n.Node               ] [DEBIAN] initialized
+[2019-11-14T22:52:36,016][INFO ][o.e.n.Node               ] [DEBIAN] starting ...
+[2019-11-14T22:52:36,483][INFO ][o.e.t.TransportService   ] [DEBIAN] publish_address {127.0.0.1:9300}, bound_addresses {[::1]:9300}, {127.0.0.1:9300}
+[2019-11-14T22:52:36,518][WARN ][o.e.b.BootstrapChecks    ] [DEBIAN] max file descriptors [4096] for elasticsearch process is too low, increase to at least [65535]
+[2019-11-14T22:52:36,519][WARN ][o.e.b.BootstrapChecks    ] [DEBIAN] max virtual memory areas vm.max_map_count [65530] is too low, increase to at least [262144]
+[2019-11-14T22:52:36,519][WARN ][o.e.b.BootstrapChecks    ] [DEBIAN] the default discovery settings are unsuitable for production use; at least one of [discovery.seed_hosts, discovery.seed_providers, cluster.initial_master_nodes] must be configured
+[2019-11-14T22:52:36,527][INFO ][o.e.c.c.Coordinator      ] [DEBIAN] cluster UUID [gxg2b9FjQzmlc5IBVdT9gQ]
+[2019-11-14T22:52:36,545][INFO ][o.e.c.c.ClusterBootstrapService] [DEBIAN] no discovery configuration found, will perform best-effort cluster bootstrapping after [3s] unless existing master is discovered
+[2019-11-14T22:52:36,980][INFO ][o.e.c.s.MasterService    ] [DEBIAN] elected-as-master ([1] nodes joined)[{DEBIAN}{adDOsngCRYucJqrI8Hnb2g}{d1uv8ALjTdigxk9IMu1zRw}{127.0.0.1}{127.0.0.1:9300}{dim}{ml.machine_memory=7792295936, xpack.installed=true, ml.max_open_jobs=20} elect leader, _BECOME_MASTER_TASK_, _FINISH_ELECTION_], term: 7, version: 87, reason: master node changed {previous [], current [{DEBIAN}{adDOsngCRYucJqrI8Hnb2g}{d1uv8ALjTdigxk9IMu1zRw}{127.0.0.1}{127.0.0.1:9300}{dim}{ml.machine_memory=7792295936, xpack.installed=true, ml.max_open_jobs=20}]}
+[2019-11-14T22:52:38,793][INFO ][o.e.c.s.ClusterApplierService] [DEBIAN] master node changed {previous [], current [{DEBIAN}{adDOsngCRYucJqrI8Hnb2g}{d1uv8ALjTdigxk9IMu1zRw}{127.0.0.1}{127.0.0.1:9300}{dim}{ml.machine_memory=7792295936, xpack.installed=true, ml.max_open_jobs=20}]}, term: 7, version: 87, reason: Publication{term=7, version=87}
+[2019-11-14T22:52:38,927][INFO ][o.e.h.AbstractHttpServerTransport] [DEBIAN] publish_address {127.0.0.1:9200}, bound_addresses {[::1]:9200}, {127.0.0.1:9200}
+[2019-11-14T22:52:38,928][INFO ][o.e.n.Node               ] [DEBIAN] started
+[2019-11-14T22:52:39,667][INFO ][o.e.l.LicenseService     ] [DEBIAN] license [02fe801f-2c77-4f66-96f5-c43a1c77a873] mode [basic] - valid
+[2019-11-14T22:52:39,668][INFO ][o.e.x.s.s.SecurityStatusChangeListener] [DEBIAN] Active license is now [BASIC]; Security is disabled
+[2019-11-14T22:52:39,677][INFO ][o.e.g.GatewayService     ] [DEBIAN] recovered [6] indices into cluster_state
+[2019-11-14T22:52:48,628][INFO ][o.e.c.r.a.AllocationService] [DEBIAN] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[.kibana_task_manager][0]] ...]).
+[2019-11-14T22:53:41,143][DEBUG][o.e.a.a.i.m.p.TransportPutMappingAction] [DEBIAN] failed to put mappings on indices [[[first_store/FXgN2a7TQF6HAxysrliaMw]]], type [users]
+org.elasticsearch.index.mapper.MapperParsingException: No type specified for field [password]
+	at org.elasticsearch.index.mapper.ObjectMapper$TypeParser.parseProperties(ObjectMapper.java:266) ~[elasticsearch-7.3.2.jar:7.3.2]
+	at org.elasticsearch.index.mapper.ObjectMapper$TypeParser.parseObjectOrDocumentTypeProperties(ObjectMapper.java:196) ~[elasticsearch-7.3.2.jar:7.3.2]
+	at org.elasticsearch.index.mapper.RootObjectMapper$TypeParser.parse(RootObjectMapper.java:130) ~[elasticsearch-7.3.2.jar:7.3.2]
+	at org.elasticsearch.index.mapper.DocumentMapperParser.parse(DocumentMapperParser.java:108) ~[elasticsearch-7.3.2.jar:7.3.2]
+	at org.elasticsearch.index.mapper.DocumentMapperParser.parse(DocumentMapperParser.java:88) ~[elasticsearch-7.3.2.jar:7.3.2]
+	at org.elasticsearch.index.mapper.MapperService.parse(MapperService.java:661) ~[elasticsearch-7.3.2.jar:7.3.2]
+	at org.elasticsearch.cluster.metadata.MetaDataMappingService$PutMappingExecutor.applyRequest(MetaDataMappingService.java:279) ~[elasticsearch-7.3.2.jar:7.3.2]
+	at org.elasticsearch.cluster.metadata.MetaDataMappingService$PutMappingExecutor.execute(MetaDataMappingService.java:238) ~[elasticsearch-7.3.2.jar:7.3.2]
+	at org.elasticsearch.cluster.service.MasterService.executeTasks(MasterService.java:687) ~[elasticsearch-7.3.2.jar:7.3.2]
+	at org.elasticsearch.cluster.service.MasterService.calculateTaskOutputs(MasterService.java:310) ~[elasticsearch-7.3.2.jar:7.3.2]
+	at org.elasticsearch.cluster.service.MasterService.runTasks(MasterService.java:210) [elasticsearch-7.3.2.jar:7.3.2]
+	at org.elasticsearch.cluster.service.MasterService$Batcher.run(MasterService.java:142) [elasticsearch-7.3.2.jar:7.3.2]
+	at org.elasticsearch.cluster.service.TaskBatcher.runIfNotProcessed(TaskBatcher.java:150) [elasticsearch-7.3.2.jar:7.3.2]
+	at org.elasticsearch.cluster.service.TaskBatcher$BatchedTask.run(TaskBatcher.java:188) [elasticsearch-7.3.2.jar:7.3.2]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingRunnable.run(ThreadContext.java:688) [elasticsearch-7.3.2.jar:7.3.2]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.runAndClean(PrioritizedEsThreadPoolExecutor.java:252) [elasticsearch-7.3.2.jar:7.3.2]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.run(PrioritizedEsThreadPoolExecutor.java:215) [elasticsearch-7.3.2.jar:7.3.2]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+[2019-11-14T22:56:43,191][INFO ][o.e.x.m.p.NativeController] [DEBIAN] Native controller process has stopped - no new native processes can be started
+[2019-11-14T22:56:43,193][INFO ][o.e.n.Node               ] [DEBIAN] stopping ...
+[2019-11-14T22:56:43,243][INFO ][o.e.x.w.WatcherService   ] [DEBIAN] stopping watch service, reason [shutdown initiated]
+[2019-11-14T22:56:43,546][INFO ][o.e.n.Node               ] [DEBIAN] stopped
+[2019-11-14T22:56:43,548][INFO ][o.e.n.Node               ] [DEBIAN] closing ...
+[2019-11-14T22:56:43,637][INFO ][o.e.n.Node               ] [DEBIAN] closed
+[2019-11-14T23:09:11,010][INFO ][o.e.e.NodeEnvironment    ] [DEBIAN] using [1] data paths, mounts [[/home (/dev/sda9)]], net usable_space [52gb], net total_space [204.9gb], types [ext4]
+[2019-11-14T23:09:11,040][INFO ][o.e.e.NodeEnvironment    ] [DEBIAN] heap size [990.7mb], compressed ordinary object pointers [true]
+[2019-11-14T23:09:11,380][INFO ][o.e.n.Node               ] [DEBIAN] node name [DEBIAN], node ID [adDOsngCRYucJqrI8Hnb2g], cluster name [elasticsearch]
+[2019-11-14T23:09:11,381][INFO ][o.e.n.Node               ] [DEBIAN] version[7.3.2], pid[9777], build[default/tar/1c1faf1/2019-09-06T14:40:30.409026Z], OS[Linux/4.9.0-11-amd64/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/11.0.2/11.0.2+9-LTS]
+[2019-11-14T23:09:11,382][INFO ][o.e.n.Node               ] [DEBIAN] JVM home [/home/zhou/workspace/program/JAVA/JDK/using/jdk]
+[2019-11-14T23:09:11,383][INFO ][o.e.n.Node               ] [DEBIAN] JVM arguments [-Xms1g, -Xmx1g, -XX:+UseConcMarkSweepGC, -XX:CMSInitiatingOccupancyFraction=75, -XX:+UseCMSInitiatingOccupancyOnly, -Des.networkaddress.cache.ttl=60, -Des.networkaddress.cache.negative.ttl=10, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -XX:-OmitStackTraceInFastThrow, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Djava.io.tmpdir=/tmp/elasticsearch-6463276164396853998, -XX:+HeapDumpOnOutOfMemoryError, -XX:HeapDumpPath=data, -XX:ErrorFile=logs/hs_err_pid%p.log, -Xlog:gc*,gc+age=trace,safepoint:file=logs/gc.log:utctime,pid,tags:filecount=32,filesize=64m, -Djava.locale.providers=COMPAT, -Dio.netty.allocator.type=unpooled, -XX:MaxDirectMemorySize=536870912, -Des.path.home=/home/zhou/下载/elasticsearch/elasticsearch-7.3.2, -Des.path.conf=/home/zhou/下载/elasticsearch/elasticsearch-7.3.2/config, -Des.distribution.flavor=default, -Des.distribution.type=tar, -Des.bundled_jdk=true]
+[2019-11-14T23:09:17,862][INFO ][o.e.p.PluginsService     ] [DEBIAN] loaded module [aggs-matrix-stats]
+[2019-11-14T23:09:17,862][INFO ][o.e.p.PluginsService     ] [DEBIAN] loaded module [analysis-common]
+[2019-11-14T23:09:17,863][INFO ][o.e.p.PluginsService     ] [DEBIAN] loaded module [data-frame]
+[2019-11-14T23:09:17,863][INFO ][o.e.p.PluginsService     ] [DEBIAN] loaded module [flattened]
+[2019-11-14T23:09:17,863][INFO ][o.e.p.PluginsService     ] [DEBIAN] loaded module [ingest-common]
+[2019-11-14T23:09:17,864][INFO ][o.e.p.PluginsService     ] [DEBIAN] loaded module [ingest-geoip]
+[2019-11-14T23:09:17,864][INFO ][o.e.p.PluginsService     ] [DEBIAN] loaded module [ingest-user-agent]
+[2019-11-14T23:09:17,865][INFO ][o.e.p.PluginsService     ] [DEBIAN] loaded module [lang-expression]
+[2019-11-14T23:09:17,866][INFO ][o.e.p.PluginsService     ] [DEBIAN] loaded module [lang-mustache]
+[2019-11-14T23:09:17,866][INFO ][o.e.p.PluginsService     ] [DEBIAN] loaded module [lang-painless]
+[2019-11-14T23:09:17,866][INFO ][o.e.p.PluginsService     ] [DEBIAN] loaded module [mapper-extras]
+[2019-11-14T23:09:17,867][INFO ][o.e.p.PluginsService     ] [DEBIAN] loaded module [parent-join]
+[2019-11-14T23:09:17,867][INFO ][o.e.p.PluginsService     ] [DEBIAN] loaded module [percolator]
+[2019-11-14T23:09:17,867][INFO ][o.e.p.PluginsService     ] [DEBIAN] loaded module [rank-eval]
+[2019-11-14T23:09:17,867][INFO ][o.e.p.PluginsService     ] [DEBIAN] loaded module [reindex]
+[2019-11-14T23:09:17,868][INFO ][o.e.p.PluginsService     ] [DEBIAN] loaded module [repository-url]
+[2019-11-14T23:09:17,868][INFO ][o.e.p.PluginsService     ] [DEBIAN] loaded module [transport-netty4]
+[2019-11-14T23:09:17,868][INFO ][o.e.p.PluginsService     ] [DEBIAN] loaded module [vectors]
+[2019-11-14T23:09:17,868][INFO ][o.e.p.PluginsService     ] [DEBIAN] loaded module [x-pack-ccr]
+[2019-11-14T23:09:17,869][INFO ][o.e.p.PluginsService     ] [DEBIAN] loaded module [x-pack-core]
+[2019-11-14T23:09:17,869][INFO ][o.e.p.PluginsService     ] [DEBIAN] loaded module [x-pack-deprecation]
+[2019-11-14T23:09:17,869][INFO ][o.e.p.PluginsService     ] [DEBIAN] loaded module [x-pack-graph]
+[2019-11-14T23:09:17,869][INFO ][o.e.p.PluginsService     ] [DEBIAN] loaded module [x-pack-ilm]
+[2019-11-14T23:09:17,870][INFO ][o.e.p.PluginsService     ] [DEBIAN] loaded module [x-pack-logstash]
+[2019-11-14T23:09:17,870][INFO ][o.e.p.PluginsService     ] [DEBIAN] loaded module [x-pack-ml]
+[2019-11-14T23:09:17,870][INFO ][o.e.p.PluginsService     ] [DEBIAN] loaded module [x-pack-monitoring]
+[2019-11-14T23:09:17,870][INFO ][o.e.p.PluginsService     ] [DEBIAN] loaded module [x-pack-rollup]
+[2019-11-14T23:09:17,871][INFO ][o.e.p.PluginsService     ] [DEBIAN] loaded module [x-pack-security]
+[2019-11-14T23:09:17,871][INFO ][o.e.p.PluginsService     ] [DEBIAN] loaded module [x-pack-sql]
+[2019-11-14T23:09:17,871][INFO ][o.e.p.PluginsService     ] [DEBIAN] loaded module [x-pack-voting-only-node]
+[2019-11-14T23:09:17,871][INFO ][o.e.p.PluginsService     ] [DEBIAN] loaded module [x-pack-watcher]
+[2019-11-14T23:09:17,872][INFO ][o.e.p.PluginsService     ] [DEBIAN] no plugins loaded
+[2019-11-14T23:09:26,090][INFO ][o.e.x.s.a.s.FileRolesStore] [DEBIAN] parsed [0] roles from file [/home/zhou/下载/elasticsearch/elasticsearch-7.3.2/config/roles.yml]
+[2019-11-14T23:09:28,267][INFO ][o.e.x.m.p.l.CppLogMessageHandler] [DEBIAN] [controller/9873] [Main.cc@110] controller (64 bit): Version 7.3.2 (Build 265429af874fbe) Copyright (c) 2019 Elasticsearch BV
+[2019-11-14T23:09:29,481][DEBUG][o.e.a.ActionModule       ] [DEBIAN] Using REST wrapper from plugin org.elasticsearch.xpack.security.Security
+[2019-11-14T23:09:30,853][INFO ][o.e.d.DiscoveryModule    ] [DEBIAN] using discovery type [zen] and seed hosts providers [settings]
+[2019-11-14T23:09:32,158][INFO ][o.e.n.Node               ] [DEBIAN] initialized
+[2019-11-14T23:09:32,162][INFO ][o.e.n.Node               ] [DEBIAN] starting ...
+[2019-11-14T23:09:32,791][INFO ][o.e.t.TransportService   ] [DEBIAN] publish_address {127.0.0.1:9300}, bound_addresses {[::1]:9300}, {127.0.0.1:9300}
+[2019-11-14T23:09:32,831][WARN ][o.e.b.BootstrapChecks    ] [DEBIAN] max file descriptors [4096] for elasticsearch process is too low, increase to at least [65535]
+[2019-11-14T23:09:32,831][WARN ][o.e.b.BootstrapChecks    ] [DEBIAN] max virtual memory areas vm.max_map_count [65530] is too low, increase to at least [262144]
+[2019-11-14T23:09:32,832][WARN ][o.e.b.BootstrapChecks    ] [DEBIAN] the default discovery settings are unsuitable for production use; at least one of [discovery.seed_hosts, discovery.seed_providers, cluster.initial_master_nodes] must be configured
+[2019-11-14T23:09:32,839][INFO ][o.e.c.c.Coordinator      ] [DEBIAN] cluster UUID [gxg2b9FjQzmlc5IBVdT9gQ]
+[2019-11-14T23:09:32,851][INFO ][o.e.c.c.ClusterBootstrapService] [DEBIAN] no discovery configuration found, will perform best-effort cluster bootstrapping after [3s] unless existing master is discovered
+[2019-11-14T23:09:33,243][INFO ][o.e.c.s.MasterService    ] [DEBIAN] elected-as-master ([1] nodes joined)[{DEBIAN}{adDOsngCRYucJqrI8Hnb2g}{e_6rHrxfTOSyOYBuhfgUdA}{127.0.0.1}{127.0.0.1:9300}{dim}{ml.machine_memory=7792295936, xpack.installed=true, ml.max_open_jobs=20} elect leader, _BECOME_MASTER_TASK_, _FINISH_ELECTION_], term: 8, version: 97, reason: master node changed {previous [], current [{DEBIAN}{adDOsngCRYucJqrI8Hnb2g}{e_6rHrxfTOSyOYBuhfgUdA}{127.0.0.1}{127.0.0.1:9300}{dim}{ml.machine_memory=7792295936, xpack.installed=true, ml.max_open_jobs=20}]}
+[2019-11-14T23:09:35,700][INFO ][o.e.c.s.ClusterApplierService] [DEBIAN] master node changed {previous [], current [{DEBIAN}{adDOsngCRYucJqrI8Hnb2g}{e_6rHrxfTOSyOYBuhfgUdA}{127.0.0.1}{127.0.0.1:9300}{dim}{ml.machine_memory=7792295936, xpack.installed=true, ml.max_open_jobs=20}]}, term: 8, version: 97, reason: Publication{term=8, version=97}
+[2019-11-14T23:09:35,867][INFO ][o.e.h.AbstractHttpServerTransport] [DEBIAN] publish_address {127.0.0.1:9200}, bound_addresses {[::1]:9200}, {127.0.0.1:9200}
+[2019-11-14T23:09:35,873][INFO ][o.e.n.Node               ] [DEBIAN] started
+[2019-11-14T23:09:36,661][INFO ][o.e.l.LicenseService     ] [DEBIAN] license [02fe801f-2c77-4f66-96f5-c43a1c77a873] mode [basic] - valid
+[2019-11-14T23:09:36,662][INFO ][o.e.x.s.s.SecurityStatusChangeListener] [DEBIAN] Active license is now [BASIC]; Security is disabled
+[2019-11-14T23:09:36,676][INFO ][o.e.g.GatewayService     ] [DEBIAN] recovered [6] indices into cluster_state
+[2019-11-14T23:09:44,717][INFO ][o.e.c.r.a.AllocationService] [DEBIAN] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[.kibana_task_manager][0], [.kibana_1][0]] ...]).
+[2019-11-14T23:16:44,979][INFO ][o.e.x.m.p.NativeController] [DEBIAN] Native controller process has stopped - no new native processes can be started
+[2019-11-14T23:16:44,980][INFO ][o.e.n.Node               ] [DEBIAN] stopping ...
+[2019-11-14T23:16:45,025][INFO ][o.e.x.w.WatcherService   ] [DEBIAN] stopping watch service, reason [shutdown initiated]
+[2019-11-14T23:16:45,311][INFO ][o.e.n.Node               ] [DEBIAN] stopped
+[2019-11-14T23:16:45,312][INFO ][o.e.n.Node               ] [DEBIAN] closing ...
+[2019-11-14T23:16:45,363][INFO ][o.e.n.Node               ] [DEBIAN] closed
+[2019-11-14T23:19:14,296][INFO ][o.e.e.NodeEnvironment    ] [DEBIAN] using [1] data paths, mounts [[/home (/dev/sda9)]], net usable_space [52gb], net total_space [204.9gb], types [ext4]
+[2019-11-14T23:19:14,303][INFO ][o.e.e.NodeEnvironment    ] [DEBIAN] heap size [990.7mb], compressed ordinary object pointers [true]
+[2019-11-14T23:19:14,540][INFO ][o.e.n.Node               ] [DEBIAN] node name [DEBIAN], node ID [adDOsngCRYucJqrI8Hnb2g], cluster name [elasticsearch]
+[2019-11-14T23:19:14,541][INFO ][o.e.n.Node               ] [DEBIAN] version[7.3.2], pid[11360], build[default/tar/1c1faf1/2019-09-06T14:40:30.409026Z], OS[Linux/4.9.0-11-amd64/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/11.0.2/11.0.2+9-LTS]
+[2019-11-14T23:19:14,541][INFO ][o.e.n.Node               ] [DEBIAN] JVM home [/home/zhou/workspace/program/JAVA/JDK/using/jdk]
+[2019-11-14T23:19:14,542][INFO ][o.e.n.Node               ] [DEBIAN] JVM arguments [-Xms1g, -Xmx1g, -XX:+UseConcMarkSweepGC, -XX:CMSInitiatingOccupancyFraction=75, -XX:+UseCMSInitiatingOccupancyOnly, -Des.networkaddress.cache.ttl=60, -Des.networkaddress.cache.negative.ttl=10, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -XX:-OmitStackTraceInFastThrow, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Djava.io.tmpdir=/tmp/elasticsearch-15693790757252030784, -XX:+HeapDumpOnOutOfMemoryError, -XX:HeapDumpPath=data, -XX:ErrorFile=logs/hs_err_pid%p.log, -Xlog:gc*,gc+age=trace,safepoint:file=logs/gc.log:utctime,pid,tags:filecount=32,filesize=64m, -Djava.locale.providers=COMPAT, -Dio.netty.allocator.type=unpooled, -XX:MaxDirectMemorySize=536870912, -Des.path.home=/home/zhou/下载/elasticsearch/elasticsearch-7.3.2, -Des.path.conf=/home/zhou/下载/elasticsearch/elasticsearch-7.3.2/config, -Des.distribution.flavor=default, -Des.distribution.type=tar, -Des.bundled_jdk=true]
+[2019-11-14T23:19:21,120][INFO ][o.e.p.PluginsService     ] [DEBIAN] loaded module [aggs-matrix-stats]
+[2019-11-14T23:19:21,121][INFO ][o.e.p.PluginsService     ] [DEBIAN] loaded module [analysis-common]
+[2019-11-14T23:19:21,122][INFO ][o.e.p.PluginsService     ] [DEBIAN] loaded module [data-frame]
+[2019-11-14T23:19:21,123][INFO ][o.e.p.PluginsService     ] [DEBIAN] loaded module [flattened]
+[2019-11-14T23:19:21,124][INFO ][o.e.p.PluginsService     ] [DEBIAN] loaded module [ingest-common]
+[2019-11-14T23:19:21,124][INFO ][o.e.p.PluginsService     ] [DEBIAN] loaded module [ingest-geoip]
+[2019-11-14T23:19:21,125][INFO ][o.e.p.PluginsService     ] [DEBIAN] loaded module [ingest-user-agent]
+[2019-11-14T23:19:21,125][INFO ][o.e.p.PluginsService     ] [DEBIAN] loaded module [lang-expression]
+[2019-11-14T23:19:21,125][INFO ][o.e.p.PluginsService     ] [DEBIAN] loaded module [lang-mustache]
+[2019-11-14T23:19:21,126][INFO ][o.e.p.PluginsService     ] [DEBIAN] loaded module [lang-painless]
+[2019-11-14T23:19:21,126][INFO ][o.e.p.PluginsService     ] [DEBIAN] loaded module [mapper-extras]
+[2019-11-14T23:19:21,127][INFO ][o.e.p.PluginsService     ] [DEBIAN] loaded module [parent-join]
+[2019-11-14T23:19:21,127][INFO ][o.e.p.PluginsService     ] [DEBIAN] loaded module [percolator]
+[2019-11-14T23:19:21,128][INFO ][o.e.p.PluginsService     ] [DEBIAN] loaded module [rank-eval]
+[2019-11-14T23:19:21,128][INFO ][o.e.p.PluginsService     ] [DEBIAN] loaded module [reindex]
+[2019-11-14T23:19:21,128][INFO ][o.e.p.PluginsService     ] [DEBIAN] loaded module [repository-url]
+[2019-11-14T23:19:21,129][INFO ][o.e.p.PluginsService     ] [DEBIAN] loaded module [transport-netty4]
+[2019-11-14T23:19:21,129][INFO ][o.e.p.PluginsService     ] [DEBIAN] loaded module [vectors]
+[2019-11-14T23:19:21,130][INFO ][o.e.p.PluginsService     ] [DEBIAN] loaded module [x-pack-ccr]
+[2019-11-14T23:19:21,130][INFO ][o.e.p.PluginsService     ] [DEBIAN] loaded module [x-pack-core]
+[2019-11-14T23:19:21,130][INFO ][o.e.p.PluginsService     ] [DEBIAN] loaded module [x-pack-deprecation]
+[2019-11-14T23:19:21,131][INFO ][o.e.p.PluginsService     ] [DEBIAN] loaded module [x-pack-graph]
+[2019-11-14T23:19:21,131][INFO ][o.e.p.PluginsService     ] [DEBIAN] loaded module [x-pack-ilm]
+[2019-11-14T23:19:21,131][INFO ][o.e.p.PluginsService     ] [DEBIAN] loaded module [x-pack-logstash]
+[2019-11-14T23:19:21,132][INFO ][o.e.p.PluginsService     ] [DEBIAN] loaded module [x-pack-ml]
+[2019-11-14T23:19:21,132][INFO ][o.e.p.PluginsService     ] [DEBIAN] loaded module [x-pack-monitoring]
+[2019-11-14T23:19:21,133][INFO ][o.e.p.PluginsService     ] [DEBIAN] loaded module [x-pack-rollup]
+[2019-11-14T23:19:21,134][INFO ][o.e.p.PluginsService     ] [DEBIAN] loaded module [x-pack-security]
+[2019-11-14T23:19:21,134][INFO ][o.e.p.PluginsService     ] [DEBIAN] loaded module [x-pack-sql]
+[2019-11-14T23:19:21,135][INFO ][o.e.p.PluginsService     ] [DEBIAN] loaded module [x-pack-voting-only-node]
+[2019-11-14T23:19:21,135][INFO ][o.e.p.PluginsService     ] [DEBIAN] loaded module [x-pack-watcher]
+[2019-11-14T23:19:21,136][INFO ][o.e.p.PluginsService     ] [DEBIAN] no plugins loaded
+[2019-11-14T23:19:27,503][INFO ][o.e.x.s.a.s.FileRolesStore] [DEBIAN] parsed [0] roles from file [/home/zhou/下载/elasticsearch/elasticsearch-7.3.2/config/roles.yml]
+[2019-11-14T23:19:29,074][INFO ][o.e.x.m.p.l.CppLogMessageHandler] [DEBIAN] [controller/11454] [Main.cc@110] controller (64 bit): Version 7.3.2 (Build 265429af874fbe) Copyright (c) 2019 Elasticsearch BV
+[2019-11-14T23:19:30,112][DEBUG][o.e.a.ActionModule       ] [DEBIAN] Using REST wrapper from plugin org.elasticsearch.xpack.security.Security
+[2019-11-14T23:19:31,643][INFO ][o.e.d.DiscoveryModule    ] [DEBIAN] using discovery type [zen] and seed hosts providers [settings]
+[2019-11-14T23:19:33,231][INFO ][o.e.n.Node               ] [DEBIAN] initialized
+[2019-11-14T23:19:33,232][INFO ][o.e.n.Node               ] [DEBIAN] starting ...
+[2019-11-14T23:19:33,546][INFO ][o.e.t.TransportService   ] [DEBIAN] publish_address {127.0.0.1:9300}, bound_addresses {[::1]:9300}, {127.0.0.1:9300}
+[2019-11-14T23:19:33,588][WARN ][o.e.b.BootstrapChecks    ] [DEBIAN] max file descriptors [4096] for elasticsearch process is too low, increase to at least [65535]
+[2019-11-14T23:19:33,588][WARN ][o.e.b.BootstrapChecks    ] [DEBIAN] max virtual memory areas vm.max_map_count [65530] is too low, increase to at least [262144]
+[2019-11-14T23:19:33,589][WARN ][o.e.b.BootstrapChecks    ] [DEBIAN] the default discovery settings are unsuitable for production use; at least one of [discovery.seed_hosts, discovery.seed_providers, cluster.initial_master_nodes] must be configured
+[2019-11-14T23:19:33,596][INFO ][o.e.c.c.Coordinator      ] [DEBIAN] cluster UUID [gxg2b9FjQzmlc5IBVdT9gQ]
+[2019-11-14T23:19:33,609][INFO ][o.e.c.c.ClusterBootstrapService] [DEBIAN] no discovery configuration found, will perform best-effort cluster bootstrapping after [3s] unless existing master is discovered
+[2019-11-14T23:19:33,933][INFO ][o.e.c.s.MasterService    ] [DEBIAN] elected-as-master ([1] nodes joined)[{DEBIAN}{adDOsngCRYucJqrI8Hnb2g}{cPPD29dsQJWzrZkAOTXh_w}{127.0.0.1}{127.0.0.1:9300}{dim}{ml.machine_memory=7792295936, xpack.installed=true, ml.max_open_jobs=20} elect leader, _BECOME_MASTER_TASK_, _FINISH_ELECTION_], term: 9, version: 106, reason: master node changed {previous [], current [{DEBIAN}{adDOsngCRYucJqrI8Hnb2g}{cPPD29dsQJWzrZkAOTXh_w}{127.0.0.1}{127.0.0.1:9300}{dim}{ml.machine_memory=7792295936, xpack.installed=true, ml.max_open_jobs=20}]}
+[2019-11-14T23:19:34,609][INFO ][o.e.c.s.ClusterApplierService] [DEBIAN] master node changed {previous [], current [{DEBIAN}{adDOsngCRYucJqrI8Hnb2g}{cPPD29dsQJWzrZkAOTXh_w}{127.0.0.1}{127.0.0.1:9300}{dim}{ml.machine_memory=7792295936, xpack.installed=true, ml.max_open_jobs=20}]}, term: 9, version: 106, reason: Publication{term=9, version=106}
+[2019-11-14T23:19:34,753][INFO ][o.e.h.AbstractHttpServerTransport] [DEBIAN] publish_address {127.0.0.1:9200}, bound_addresses {[::1]:9200}, {127.0.0.1:9200}
+[2019-11-14T23:19:34,754][INFO ][o.e.n.Node               ] [DEBIAN] started
+[2019-11-14T23:19:35,635][INFO ][o.e.l.LicenseService     ] [DEBIAN] license [02fe801f-2c77-4f66-96f5-c43a1c77a873] mode [basic] - valid
+[2019-11-14T23:19:35,637][INFO ][o.e.x.s.s.SecurityStatusChangeListener] [DEBIAN] Active license is now [BASIC]; Security is disabled
+[2019-11-14T23:19:35,651][INFO ][o.e.g.GatewayService     ] [DEBIAN] recovered [6] indices into cluster_state
+[2019-11-14T23:19:41,153][INFO ][o.e.c.r.a.AllocationService] [DEBIAN] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[kibana_sample_data_ecommerce][0], [.kibana_1][0], [.kibana_task_manager][0]] ...]).
+[2019-11-14T23:20:26,804][INFO ][o.e.x.m.p.NativeController] [DEBIAN] Native controller process has stopped - no new native processes can be started
+[2019-11-14T23:20:26,831][INFO ][o.e.n.Node               ] [DEBIAN] stopping ...
+[2019-11-14T23:20:26,849][INFO ][o.e.x.w.WatcherService   ] [DEBIAN] stopping watch service, reason [shutdown initiated]
+[2019-11-14T23:20:26,950][INFO ][o.e.n.Node               ] [DEBIAN] stopped
+[2019-11-14T23:20:26,951][INFO ][o.e.n.Node               ] [DEBIAN] closing ...
+[2019-11-14T23:20:26,966][INFO ][o.e.n.Node               ] [DEBIAN] closed
