@@ -1,0 +1,6 @@
+elasticsearch-7.3.2/jdk/lib/modules.zip
+elasticsearch-7.3.2/jdk/lib/modules.tar.xz
+
+以上两个压缩包任意解压一个放到　elasticsearch-7.3.2/jdk/lib/　
+目录下面就ＯＫ (解压完成后应该是elasticsearch-7.3.2/jdk/lib/modules)，内容都是一样的
+都是同一个文件压缩出来，仅仅只是压缩格式不一样
