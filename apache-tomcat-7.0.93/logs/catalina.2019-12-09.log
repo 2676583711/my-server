@@ -1,0 +1,315 @@
+12月 09, 2019 11:07:43 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server version:        Apache Tomcat/7.0.93
+12月 09, 2019 11:07:43 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server built:          Feb 16 2019 17:13:17 UTC
+12月 09, 2019 11:07:43 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server number:         7.0.93.0
+12月 09, 2019 11:07:43 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Name:               Linux
+12月 09, 2019 11:07:43 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Version:            4.9.0-11-amd64
+12月 09, 2019 11:07:43 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Architecture:          amd64
+12月 09, 2019 11:07:43 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Java Home:             /home/zhou/workspace/program/JAVA/JDK/using/jdk
+12月 09, 2019 11:07:43 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Version:           11.0.2+9-LTS
+12月 09, 2019 11:07:43 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Vendor:            Oracle Corporation
+12月 09, 2019 11:07:43 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_BASE:         /home/zhou/workspace/program/JAVA/Tomcat/tomcat-package/apache-tomcat-7.0.93
+12月 09, 2019 11:07:43 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_HOME:         /home/zhou/workspace/program/JAVA/Tomcat/tomcat-package/apache-tomcat-7.0.93
+12月 09, 2019 11:07:43 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+12月 09, 2019 11:07:43 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+12月 09, 2019 11:07:43 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+12月 09, 2019 11:07:43 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.config.file=/home/zhou/workspace/program/JAVA/Tomcat/tomcat-package/apache-tomcat-7.0.93/conf/logging.properties
+12月 09, 2019 11:07:43 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+12月 09, 2019 11:07:43 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+12月 09, 2019 11:07:43 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dignore.endorsed.dirs=
+12月 09, 2019 11:07:43 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.base=/home/zhou/workspace/program/JAVA/Tomcat/tomcat-package/apache-tomcat-7.0.93
+12月 09, 2019 11:07:43 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.home=/home/zhou/workspace/program/JAVA/Tomcat/tomcat-package/apache-tomcat-7.0.93
+12月 09, 2019 11:07:43 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.io.tmpdir=/home/zhou/workspace/program/JAVA/Tomcat/tomcat-package/apache-tomcat-7.0.93/temp
+12月 09, 2019 11:07:43 下午 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+信息: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib
+12月 09, 2019 11:07:44 下午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-bio-8080"]
+12月 09, 2019 11:07:44 下午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["ajp-bio-8009"]
+12月 09, 2019 11:07:44 下午 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 1932 ms
+12月 09, 2019 11:07:44 下午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service Catalina
+12月 09, 2019 11:07:44 下午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/7.0.93
+12月 09, 2019 11:07:44 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory /home/zhou/workspace/program/JAVA/Tomcat/tomcat-package/apache-tomcat-7.0.93/webapps/ROOT
+12月 09, 2019 11:07:44 下午 org.apache.catalina.startup.TldConfig execute
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12月 09, 2019 11:07:45 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory /home/zhou/workspace/program/JAVA/Tomcat/tomcat-package/apache-tomcat-7.0.93/webapps/ROOT has finished in 922 ms
+12月 09, 2019 11:07:45 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory /home/zhou/workspace/program/JAVA/Tomcat/tomcat-package/apache-tomcat-7.0.93/webapps/manager
+12月 09, 2019 11:07:45 下午 org.apache.catalina.startup.TldConfig execute
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12月 09, 2019 11:07:45 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory /home/zhou/workspace/program/JAVA/Tomcat/tomcat-package/apache-tomcat-7.0.93/webapps/manager has finished in 113 ms
+12月 09, 2019 11:07:45 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory /home/zhou/workspace/program/JAVA/Tomcat/tomcat-package/apache-tomcat-7.0.93/webapps/docs
+12月 09, 2019 11:07:45 下午 org.apache.catalina.startup.TldConfig execute
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12月 09, 2019 11:07:45 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory /home/zhou/workspace/program/JAVA/Tomcat/tomcat-package/apache-tomcat-7.0.93/webapps/docs has finished in 70 ms
+12月 09, 2019 11:07:45 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory /home/zhou/workspace/program/JAVA/Tomcat/tomcat-package/apache-tomcat-7.0.93/webapps/host-manager
+12月 09, 2019 11:07:45 下午 org.apache.catalina.startup.TldConfig execute
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12月 09, 2019 11:07:45 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory /home/zhou/workspace/program/JAVA/Tomcat/tomcat-package/apache-tomcat-7.0.93/webapps/host-manager has finished in 71 ms
+12月 09, 2019 11:07:45 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory /home/zhou/workspace/program/JAVA/Tomcat/tomcat-package/apache-tomcat-7.0.93/webapps/examples
+12月 09, 2019 11:07:45 下午 org.apache.catalina.startup.TldConfig execute
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12月 09, 2019 11:07:45 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory /home/zhou/workspace/program/JAVA/Tomcat/tomcat-package/apache-tomcat-7.0.93/webapps/examples has finished in 339 ms
+12月 09, 2019 11:07:45 下午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-bio-8080"]
+12月 09, 2019 11:07:45 下午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["ajp-bio-8009"]
+12月 09, 2019 11:07:45 下午 org.apache.catalina.startup.Catalina start
+信息: Server startup in 1693 ms
+12月 09, 2019 11:08:26 下午 org.apache.catalina.startup.HostConfig undeploy
+信息: Undeploying context []
+12月 09, 2019 11:08:26 下午 org.apache.catalina.loader.WebappClassLoaderBase clearReferencesJdbc
+警告: JDBC driver de-registration failed for web application []
+java.lang.NullPointerException
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc(WebappClassLoaderBase.java:2352)
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearReferences(WebappClassLoaderBase.java:2286)
+	at org.apache.catalina.loader.WebappClassLoaderBase.stop(WebappClassLoaderBase.java:2186)
+	at org.apache.catalina.loader.WebappLoader.stopInternal(WebappLoader.java:684)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5962)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:1138)
+	at org.apache.catalina.startup.HostConfig.undeploy(HostConfig.java:1598)
+	at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1524)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1784)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:366)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:117)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1507)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1678)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1688)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1656)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+12月 09, 2019 11:08:26 下午 org.apache.catalina.startup.HostConfig undeploy
+信息: Undeploying context [/examples]
+12月 09, 2019 11:08:26 下午 org.apache.catalina.loader.WebappClassLoaderBase openJARs
+警告: Failed to open JAR [null]
+java.io.IOException: java.lang.reflect.InvocationTargetException
+	at org.apache.tomcat.util.compat.Jre9Compat.jarFileNewInstance(Jre9Compat.java:203)
+	at org.apache.catalina.loader.WebappClassLoaderBase.openJARs(WebappClassLoaderBase.java:3131)
+	at org.apache.catalina.loader.WebappClassLoaderBase.findResourceInternal(WebappClassLoaderBase.java:3443)
+	at org.apache.catalina.loader.WebappClassLoaderBase.findClassInternal(WebappClassLoaderBase.java:3163)
+	at org.apache.catalina.loader.WebappClassLoaderBase.findClass(WebappClassLoaderBase.java:1420)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1924)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1798)
+	at websocket.drawboard.DrawboardEndpoint.<clinit>(DrawboardEndpoint.java:37)
+	at websocket.drawboard.DrawboardContextListener.contextDestroyed(DrawboardContextListener.java:32)
+	at org.apache.catalina.core.StandardContext.listenerStop(StandardContext.java:5228)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5917)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:1138)
+	at org.apache.catalina.startup.HostConfig.undeploy(HostConfig.java:1598)
+	at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1524)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1784)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:366)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:117)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1507)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1678)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1688)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1656)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.apache.tomcat.util.compat.Jre9Compat.jarFileNewInstance(Jre9Compat.java:194)
+	... 23 more
+Caused by: java.nio.file.NoSuchFileException: /home/zhou/workspace/program/JAVA/Tomcat/tomcat-package/apache-tomcat-7.0.93/webapps/examples/WEB-INF/lib/taglibs-standard-impl-1.2.5.jar
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:116)
+	at java.base/sun.nio.fs.UnixFileAttributeViews$Basic.readAttributes(UnixFileAttributeViews.java:55)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.readAttributes(UnixFileSystemProvider.java:145)
+	at java.base/sun.nio.fs.LinuxFileSystemProvider.readAttributes(LinuxFileSystemProvider.java:99)
+	at java.base/java.nio.file.Files.readAttributes(Files.java:1763)
+	at java.base/java.util.zip.ZipFile$Source.get(ZipFile.java:1222)
+	at java.base/java.util.zip.ZipFile$CleanableResource.<init>(ZipFile.java:726)
+	at java.base/java.util.zip.ZipFile$CleanableResource.get(ZipFile.java:843)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:246)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:176)
+	at java.base/java.util.jar.JarFile.<init>(JarFile.java:346)
+	... 28 more
+
+12月 09, 2019 11:08:26 下午 org.apache.catalina.loader.WebappClassLoaderBase openJARs
+警告: Failed to open JAR [null]
+java.io.IOException: java.lang.reflect.InvocationTargetException
+	at org.apache.tomcat.util.compat.Jre9Compat.jarFileNewInstance(Jre9Compat.java:203)
+	at org.apache.catalina.loader.WebappClassLoaderBase.openJARs(WebappClassLoaderBase.java:3131)
+	at org.apache.catalina.loader.WebappClassLoaderBase.findResourceInternal(WebappClassLoaderBase.java:3443)
+	at org.apache.catalina.loader.WebappClassLoaderBase.findResource(WebappClassLoaderBase.java:1505)
+	at org.apache.catalina.loader.WebappClassLoaderBase.getResourceAsStream(WebappClassLoaderBase.java:1749)
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc(WebappClassLoaderBase.java:2345)
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearReferences(WebappClassLoaderBase.java:2286)
+	at org.apache.catalina.loader.WebappClassLoaderBase.stop(WebappClassLoaderBase.java:2186)
+	at org.apache.catalina.loader.WebappLoader.stopInternal(WebappLoader.java:684)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5962)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:1138)
+	at org.apache.catalina.startup.HostConfig.undeploy(HostConfig.java:1598)
+	at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1524)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1784)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:366)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:117)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1507)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1678)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1688)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1656)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.apache.tomcat.util.compat.Jre9Compat.jarFileNewInstance(Jre9Compat.java:194)
+	... 23 more
+Caused by: java.nio.file.NoSuchFileException: /home/zhou/workspace/program/JAVA/Tomcat/tomcat-package/apache-tomcat-7.0.93/webapps/examples/WEB-INF/lib/taglibs-standard-impl-1.2.5.jar
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:116)
+	at java.base/sun.nio.fs.UnixFileAttributeViews$Basic.readAttributes(UnixFileAttributeViews.java:55)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.readAttributes(UnixFileSystemProvider.java:145)
+	at java.base/sun.nio.fs.LinuxFileSystemProvider.readAttributes(LinuxFileSystemProvider.java:99)
+	at java.base/java.nio.file.Files.readAttributes(Files.java:1763)
+	at java.base/java.util.zip.ZipFile$Source.get(ZipFile.java:1222)
+	at java.base/java.util.zip.ZipFile$CleanableResource.<init>(ZipFile.java:726)
+	at java.base/java.util.zip.ZipFile$CleanableResource.get(ZipFile.java:843)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:246)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:176)
+	at java.base/java.util.jar.JarFile.<init>(JarFile.java:346)
+	... 28 more
+
+12月 09, 2019 11:08:26 下午 org.apache.catalina.loader.WebappClassLoaderBase clearReferencesJdbc
+警告: JDBC driver de-registration failed for web application [/examples]
+java.lang.NullPointerException
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc(WebappClassLoaderBase.java:2352)
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearReferences(WebappClassLoaderBase.java:2286)
+	at org.apache.catalina.loader.WebappClassLoaderBase.stop(WebappClassLoaderBase.java:2186)
+	at org.apache.catalina.loader.WebappLoader.stopInternal(WebappLoader.java:684)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5962)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:1138)
+	at org.apache.catalina.startup.HostConfig.undeploy(HostConfig.java:1598)
+	at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1524)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1784)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:366)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:117)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1507)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1678)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1688)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1656)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+12月 09, 2019 11:08:27 下午 org.apache.catalina.startup.HostConfig undeploy
+信息: Undeploying context [/host-manager]
+12月 09, 2019 11:08:27 下午 org.apache.catalina.loader.WebappClassLoaderBase clearReferencesJdbc
+警告: JDBC driver de-registration failed for web application [/host-manager]
+java.lang.NullPointerException
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc(WebappClassLoaderBase.java:2352)
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearReferences(WebappClassLoaderBase.java:2286)
+	at org.apache.catalina.loader.WebappClassLoaderBase.stop(WebappClassLoaderBase.java:2186)
+	at org.apache.catalina.loader.WebappLoader.stopInternal(WebappLoader.java:684)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5962)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:1138)
+	at org.apache.catalina.startup.HostConfig.undeploy(HostConfig.java:1598)
+	at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1524)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1784)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:366)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:117)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1507)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1678)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1688)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1656)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+12月 09, 2019 11:08:27 下午 org.apache.catalina.startup.HostConfig undeploy
+信息: Undeploying context [/manager]
+12月 09, 2019 11:08:27 下午 org.apache.catalina.loader.WebappClassLoaderBase clearReferencesJdbc
+警告: JDBC driver de-registration failed for web application [/manager]
+java.lang.NullPointerException
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc(WebappClassLoaderBase.java:2352)
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearReferences(WebappClassLoaderBase.java:2286)
+	at org.apache.catalina.loader.WebappClassLoaderBase.stop(WebappClassLoaderBase.java:2186)
+	at org.apache.catalina.loader.WebappLoader.stopInternal(WebappLoader.java:684)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5962)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:1138)
+	at org.apache.catalina.startup.HostConfig.undeploy(HostConfig.java:1598)
+	at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1524)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1784)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:366)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:117)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1507)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1678)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1688)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1656)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+12月 09, 2019 11:08:28 下午 org.apache.catalina.startup.HostConfig undeploy
+信息: Undeploying context [/docs]
+12月 09, 2019 11:08:28 下午 org.apache.catalina.loader.WebappClassLoaderBase clearReferencesJdbc
+警告: JDBC driver de-registration failed for web application [/docs]
+java.lang.NullPointerException
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc(WebappClassLoaderBase.java:2352)
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearReferences(WebappClassLoaderBase.java:2286)
+	at org.apache.catalina.loader.WebappClassLoaderBase.stop(WebappClassLoaderBase.java:2186)
+	at org.apache.catalina.loader.WebappLoader.stopInternal(WebappLoader.java:684)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5962)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:1138)
+	at org.apache.catalina.startup.HostConfig.undeploy(HostConfig.java:1598)
+	at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1524)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1784)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:366)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:117)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1507)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1678)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1688)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1656)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
