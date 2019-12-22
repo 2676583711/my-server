@@ -92,7 +92,7 @@
                secure="true"
                clientAuth="false" 
                sslProtocol="TLS" 
-               keystoreFile="~/my-server/apache-tomcat-7.0.93/3167762_liberalzhou.xyz.pfx"    
+               keystoreFile="~/ts/apache-tomcat-7.0.93/3167762_liberalzhou.xyz.pfx"    
     		   keystoreType="PKCS12"
     		   keystorePass="SV136y9V" />
 

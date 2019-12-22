@@ -10,3 +10,19 @@
 信息: SessionListener: contextDestroyed()
 12月 22, 2019 9:15:27 下午 org.apache.catalina.core.ApplicationContext log
 信息: ContextListener: contextDestroyed()
+Dec 22, 2019 9:27:39 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextDestroyed()
+Dec 22, 2019 9:27:39 PM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextDestroyed()
+Dec 22, 2019 9:27:54 PM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextInitialized()
+Dec 22, 2019 9:27:54 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextInitialized()
+Dec 22, 2019 9:27:54 PM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: attributeAdded('StockTicker', 'async.Stockticker@66a31192')
+Dec 22, 2019 9:27:54 PM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@14997ce2')
+Dec 22, 2019 9:33:41 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextDestroyed()
+Dec 22, 2019 9:33:41 PM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextDestroyed()
