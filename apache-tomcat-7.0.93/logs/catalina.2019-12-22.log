@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Dec 22, 2019 2:13:03 AM org.apache.coyote.http11.AbstractHttp11Processor process
 INFO: Error parsing HTTP request header
  Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.
@@ -146,3 +147,193 @@ java.lang.IllegalArgumentException: Invalid character found in method name. HTTP
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:748)
 
+=======
+12月 22, 2019 9:08:54 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server version:        Apache Tomcat/7.0.93
+12月 22, 2019 9:08:55 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server built:          Feb 16 2019 17:13:17 UTC
+12月 22, 2019 9:08:55 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server number:         7.0.93.0
+12月 22, 2019 9:08:55 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Name:               Linux
+12月 22, 2019 9:08:55 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Version:            4.9.0-11-amd64
+12月 22, 2019 9:08:55 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Architecture:          amd64
+12月 22, 2019 9:08:55 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Java Home:             /home/zhou/workspace/program/JAVA/JDK/using/jdk
+12月 22, 2019 9:08:55 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Version:           11.0.2+9-LTS
+12月 22, 2019 9:08:55 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Vendor:            Oracle Corporation
+12月 22, 2019 9:08:55 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_BASE:         /home/zhou/workspace/GIT/2676583711/my-server/apache-tomcat-7.0.93
+12月 22, 2019 9:08:55 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_HOME:         /home/zhou/workspace/GIT/2676583711/my-server/apache-tomcat-7.0.93
+12月 22, 2019 9:08:55 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+12月 22, 2019 9:08:55 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+12月 22, 2019 9:08:55 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+12月 22, 2019 9:08:55 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.config.file=/home/zhou/workspace/GIT/2676583711/my-server/apache-tomcat-7.0.93/conf/logging.properties
+12月 22, 2019 9:08:55 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+12月 22, 2019 9:08:55 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+12月 22, 2019 9:08:55 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dignore.endorsed.dirs=
+12月 22, 2019 9:08:55 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.base=/home/zhou/workspace/GIT/2676583711/my-server/apache-tomcat-7.0.93
+12月 22, 2019 9:08:55 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.home=/home/zhou/workspace/GIT/2676583711/my-server/apache-tomcat-7.0.93
+12月 22, 2019 9:08:55 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.io.tmpdir=/home/zhou/workspace/GIT/2676583711/my-server/apache-tomcat-7.0.93/temp
+12月 22, 2019 9:08:55 下午 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+信息: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib
+12月 22, 2019 9:08:55 下午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-bio-8080"]
+12月 22, 2019 9:08:55 下午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-bio-443"]
+12月 22, 2019 9:08:56 下午 org.apache.coyote.AbstractProtocol init
+严重: Failed to initialize end point associated with ProtocolHandler ["http-bio-443"]
+java.net.BindException: 权限不够 (Bind failed) <null>:443
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:414)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:728)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:452)
+	at org.apache.coyote.http11.AbstractHttp11JsseProtocol.init(AbstractHttp11JsseProtocol.java:119)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:978)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:560)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:840)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:660)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:685)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:253)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:427)
+Caused by: java.net.BindException: 权限不够 (Bind failed)
+	at java.base/java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.base/java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:436)
+	at java.base/java.net.ServerSocket.bind(ServerSocket.java:381)
+	at java.base/java.net.ServerSocket.<init>(ServerSocket.java:243)
+	at java.base/java.net.ServerSocket.<init>(ServerSocket.java:187)
+	at java.base/javax.net.ssl.SSLServerSocket.<init>(SSLServerSocket.java:136)
+	at java.base/sun.security.ssl.SSLServerSocketImpl.<init>(SSLServerSocketImpl.java:71)
+	at java.base/sun.security.ssl.SSLServerSocketFactoryImpl.createServerSocket(SSLServerSocketFactoryImpl.java:80)
+	at org.apache.tomcat.util.net.jsse.JSSESocketFactory.createSocket(JSSESocketFactory.java:256)
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:401)
+	... 17 more
+
+12月 22, 2019 9:08:56 下午 org.apache.catalina.core.StandardService initInternal
+严重: Failed to initialize connector [Connector[HTTP/1.1-443]]
+org.apache.catalina.LifecycleException: Failed to initialize component [Connector[HTTP/1.1-443]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:560)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:840)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:660)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:685)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:253)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:427)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:980)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	... 12 more
+Caused by: java.net.BindException: 权限不够 (Bind failed) <null>:443
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:414)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:728)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:452)
+	at org.apache.coyote.http11.AbstractHttp11JsseProtocol.init(AbstractHttp11JsseProtocol.java:119)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:978)
+	... 13 more
+Caused by: java.net.BindException: 权限不够 (Bind failed)
+	at java.base/java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.base/java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:436)
+	at java.base/java.net.ServerSocket.bind(ServerSocket.java:381)
+	at java.base/java.net.ServerSocket.<init>(ServerSocket.java:243)
+	at java.base/java.net.ServerSocket.<init>(ServerSocket.java:187)
+	at java.base/javax.net.ssl.SSLServerSocket.<init>(SSLServerSocket.java:136)
+	at java.base/sun.security.ssl.SSLServerSocketImpl.<init>(SSLServerSocketImpl.java:71)
+	at java.base/sun.security.ssl.SSLServerSocketFactoryImpl.createServerSocket(SSLServerSocketFactoryImpl.java:80)
+	at org.apache.tomcat.util.net.jsse.JSSESocketFactory.createSocket(JSSESocketFactory.java:256)
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:401)
+	... 17 more
+
+12月 22, 2019 9:08:56 下午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["ajp-bio-8009"]
+12月 22, 2019 9:08:56 下午 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 4361 ms
+12月 22, 2019 9:08:56 下午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service Catalina
+12月 22, 2019 9:08:56 下午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/7.0.93
+12月 22, 2019 9:08:56 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory /home/zhou/workspace/GIT/2676583711/my-server/apache-tomcat-7.0.93/webapps/ROOT
+12月 22, 2019 9:08:58 下午 org.apache.catalina.startup.TldConfig execute
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12月 22, 2019 9:08:58 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory /home/zhou/workspace/GIT/2676583711/my-server/apache-tomcat-7.0.93/webapps/ROOT has finished in 1,420 ms
+12月 22, 2019 9:08:58 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory /home/zhou/workspace/GIT/2676583711/my-server/apache-tomcat-7.0.93/webapps/manager
+12月 22, 2019 9:08:58 下午 org.apache.catalina.startup.TldConfig execute
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12月 22, 2019 9:08:58 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory /home/zhou/workspace/GIT/2676583711/my-server/apache-tomcat-7.0.93/webapps/manager has finished in 224 ms
+12月 22, 2019 9:08:58 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory /home/zhou/workspace/GIT/2676583711/my-server/apache-tomcat-7.0.93/webapps/docs
+12月 22, 2019 9:08:58 下午 org.apache.catalina.startup.TldConfig execute
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12月 22, 2019 9:08:58 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory /home/zhou/workspace/GIT/2676583711/my-server/apache-tomcat-7.0.93/webapps/docs has finished in 117 ms
+12月 22, 2019 9:08:58 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory /home/zhou/workspace/GIT/2676583711/my-server/apache-tomcat-7.0.93/webapps/host-manager
+12月 22, 2019 9:08:58 下午 org.apache.catalina.startup.TldConfig execute
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12月 22, 2019 9:08:58 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory /home/zhou/workspace/GIT/2676583711/my-server/apache-tomcat-7.0.93/webapps/host-manager has finished in 117 ms
+12月 22, 2019 9:08:58 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory /home/zhou/workspace/GIT/2676583711/my-server/apache-tomcat-7.0.93/webapps/examples
+12月 22, 2019 9:08:59 下午 org.apache.catalina.startup.TldConfig execute
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12月 22, 2019 9:08:59 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory /home/zhou/workspace/GIT/2676583711/my-server/apache-tomcat-7.0.93/webapps/examples has finished in 690 ms
+12月 22, 2019 9:08:59 下午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-bio-8080"]
+12月 22, 2019 9:08:59 下午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["ajp-bio-8009"]
+12月 22, 2019 9:08:59 下午 org.apache.catalina.startup.Catalina start
+信息: Server startup in 2997 ms
+12月 22, 2019 9:15:27 下午 org.apache.catalina.core.StandardServer await
+信息: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+12月 22, 2019 9:15:27 下午 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler ["http-bio-8080"]
+12月 22, 2019 9:15:27 下午 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler ["http-bio-443"]
+12月 22, 2019 9:15:27 下午 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler ["ajp-bio-8009"]
+12月 22, 2019 9:15:27 下午 org.apache.catalina.core.StandardService stopInternal
+信息: Stopping service Catalina
+12月 22, 2019 9:15:27 下午 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler ["http-bio-8080"]
+12月 22, 2019 9:15:27 下午 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler ["ajp-bio-8009"]
+12月 22, 2019 9:15:27 下午 org.apache.coyote.AbstractProtocol destroy
+信息: Destroying ProtocolHandler ["http-bio-8080"]
+12月 22, 2019 9:15:27 下午 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler ["http-bio-443"]
+12月 22, 2019 9:15:27 下午 org.apache.coyote.AbstractProtocol destroy
+信息: Destroying ProtocolHandler ["http-bio-443"]
+12月 22, 2019 9:15:27 下午 org.apache.coyote.AbstractProtocol destroy
+信息: Destroying ProtocolHandler ["ajp-bio-8009"]
+>>>>>>> 9b7988bb2f8f1fe2a06bf449996cbc0555b01bba

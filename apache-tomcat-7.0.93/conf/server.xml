@@ -83,6 +83,7 @@
          OpenSSL style configuration is required as described in the APR/native
          documentation -->
          
+         <!--  protocol="HTTP/1.1" -->
     <Connector port="443" 
          protocol="org.apache.coyote.http11.Http11Protocol"
                maxThreads="150" 
@@ -91,7 +92,7 @@
                secure="true"
                clientAuth="false" 
                sslProtocol="TLS" 
-               keystoreFile="3167762_liberalzhou.xyz.pfx"    
+               keystoreFile="~/my-server/apache-tomcat-7.0.93/3167762_liberalzhou.xyz.pfx"    
     		   keystoreType="PKCS12"
     		   keystorePass="SV136y9V" />
 
